@@ -1,0 +1,548 @@
+font-family: 'Monoton', cursive;*/
+/*font-family: 'Raleway', sans-serif;*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1{
+	font-family: 'Monoton', cursive;
+}
+h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* header section starts here */
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	height: 110vh;
+	background-image: url("../images/object.png"), url("../images/b1.png");
+    background-position: left top, center top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40%, cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+	color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 25px 120px;
+ 
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+	font-size: 18px;
+	color: #cd1be4;
+}
+.banner{
+	width: 100%;
+}
+.banner .title{
+	color: #fff;
+	text-align: center;
+    padding: 127px 182px 0px 0px;
+}
+.banner .title h1{
+    font-size: 60px;
+}
+.banner .title h2{
+	font-size: 50px;
+    font-weight: 400;
+    padding: 10px 0px 10px;
+}
+.banner .inner-banner {
+    text-align: right;
+    color: #fff;
+    padding: 100px 100px 0px 0px;
+}
+.banner .inner-banner h2{
+	font-size: 80px;
+    font-weight: 700;
+}
+.banner .inner-banner img{
+    width: 25%;
+    margin: 0px 4px 19px 0px;
+}
+.banner .inner-banner p{
+	font-size: 18px;
+    font-weight: 400;
+    padding: 9px 0px 12px;
+}
+.banner .inner-banner .btn-light{
+	padding: 8px 29px;
+	font-weight: 600;
+}
+.banner .inner-banner .btn-light:hover{
+	color: #fff;
+	background: #990e3b;
+	border: none;
+}
+
+.banner .inner-banner .btn{
+	color: #100667;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 0px; 
+}
+/* header section ends */
+
+/* guest section starts here */
+.guest{
+	width: 100%;
+	padding: 80px 0px;
+	background: #000001;
+}
+.guest .inner-guest{
+	text-align: center;
+	color: #fff;
+}
+.guest .inner-guest img{
+	width: 3%;
+    padding: 0px 0px 8px;
+}
+.guest .inner-guest h2{
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 0px 0px 21px;
+}
+.guest .inner-guest p{
+	font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+/* guest section end */
+
+/* new section starts */
+.new{
+	width: 100%;
+	padding: 80px 0px;
+	background: #aa15b6;
+}
+.new .card{
+	text-align: left;
+	color: #fff;
+	border: none;
+	border-radius: 0px;
+	padding: 50px 0px;
+	background: #aa15b6; 
+
+}
+.new .card .fa-forward{
+	font-size: 38px;
+    padding: 0px 0px 0px 17px;
+}
+.new .card .card-body .card-title{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0px 0px 10px;
+}
+.new .card .card-body .card-text{
+	font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+/* new section end */
+
+/* priority section starts */
+.priority{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/pbanner.png") center top, no-repeat;
+	background-size: cover;
+}
+.priority .title{
+	text-align: center;
+	color: #fff;
+}
+.priority .title h2{
+	font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    padding: 0px 0px 21px;
+}
+.priority .title p{
+	font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+}
+.priority .card{
+	text-align: left;
+	border: none;
+	border-radius: 0px;
+	padding: 40px 0px 40px 85px;
+	background: #aa15b6;
+}
+
+.priority .card .card-body .card-title{
+	font-size: 19px;
+    line-height: 39px;
+    font-weight: 600;
+    color: #fff;
+}
+.priority .card .card-body .card-text{
+	font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 12px;
+}
+.priority .card .card-body .client-img{
+	width: 43px;
+    height: 43px;
+}
+.priority .card .card-body .client-name h6{
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+.priority .card .card-body .client-name p{
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+/* priority section end */
+
+/* group5 section starts here */
+.group5{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/banner5.png") center top, no-repeat;
+	background-size: cover;
+}
+/* group5 section starts here */
+
+/* what section starts here */
+.what{
+	width: 100%;
+	padding: 80px 0px 30px;
+	background: #000001;
+}
+.what .title{
+	text-align: center;
+	color: #fff;
+}
+.what .title h2{
+	font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    padding: 0px 0px 21px;
+}
+.what .title p{
+	font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 27px;  
+}
+.what .title img{
+    width: 10%;
+    padding-bottom: 40px;
+}
+.what .nav{
+	display: block;
+}
+.what .nav .list{
+	list-style: none;
+	text-align: center;
+}
+.what .nav .list a{
+
+}
+.what .nav .list li{
+	color: #fff;
+	display: inline-block;
+    padding: 21px 30px 0px 30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.what .nav .list li:hover{
+	color: #aa15b6;
+}
+/* what section end */
+
+/* gallery section start */
+.gallery{
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../images/qb.png") center top, no-repeat;
+	background-size: cover;
+}
+/*gallery section end*/
+
+/* qoute section starts */
+.quote{
+	width: 100%;
+    padding: 65px 0px 80px;
+    background: #000;
+	text-align: center;
+
+}
+.quote img{
+    width: 10%;
+    padding-bottom: 40px;
+}
+.quote .title{
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.quote .title img{
+    width: 2%;
+    padding-bottom: 20px;
+}
+.quote .title h3{
+	font-size: 19px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.quote .title p{
+	font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 27px;
+}
+/* quote section end */
+/* number section starts */
+.number{
+	width: 100%;
+	padding: 80px 0px 200px;
+	background: url("../images/nb.png") center top, no-repeat;
+	background-size: cover;
+}
+.number .title{
+	text-align: center;
+	color: #fff;
+	padding: 0px 0px 20px;
+}
+.number .inner-number{
+	color: #fff;
+	padding: 40px 0px 0px;
+	text-align: center;
+}
+.number .inner-number p{
+	font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.number .inner-number h3{
+	    font-size: 19px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.number .inner-number h2{
+	font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+/* number section  */
+
+/* project section starts */
+.project{
+	width: 100%;
+	padding: 80px 0px;
+	background: #000;
+}
+.project .title{
+	text-align: center;
+	color: #fff;
+	padding: 106px 30px 30px;
+}
+.project .title h5{
+	font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.project .title h2{
+	font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.project .title p{
+	font-size: 13px;
+    line-height: 23px;
+}
+/* project section end */
+
+/* trip section starts here */
+.trip{
+	width: 100%;
+	padding: 80px 0px;
+	background: #aa15b6; 
+}
+.trip .inner-image img{
+	    width: 50%;
+}
+.trip .inner-trip{
+	color: #fff;
+    padding: 10px 0px 0px;
+}
+.trip .inner-trip h5{
+	font-size: 17px;
+    font-weight: 600;
+}
+.trip .inner-trip p{
+	font-size: 13px;
+    font-weight: 400;
+}
+/* trip section end */
+
+/* social section starts */
+.social{
+	width: 100%;
+	padding: 60px 0px 30px;
+	background: #000001;
+	position: relative;
+}
+.social img{
+	position: absolute;
+	top: 15%;
+    left: 49%;
+}
+.social .title{
+	color: #fff;
+    text-align: center;
+    padding: 25px 0px 0px
+}
+.social .title h5{
+	font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.social .title p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.social .social-icon{
+	padding: 30px 0px 0px;
+}
+.social .social-icon .icon{
+	list-style:none;
+	display: block;
+	text-align: center;
+}
+.social .social-icon .icon li{
+	display: inline-block;
+    background: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 15px 0px 0px;
+}
+.social .social-icon .icon .fa{
+	color: #000001;
+    font-size: 21px;
+    padding: 10px;
+    font-weight: 500;
+}
+.social .social-icon .icon .fa:hover{
+	color: #aa15b6;
+}
+/* social section end */
+/*footer section starts here*/
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #aa15b6;
+}
+.inner-text{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #fff;
+}
+.footer h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+}
+.footer .widget{
+    display: block;
+    padding: 0px;
+}
+.footer .widget li{
+    list-style: none;
+    display: block;
+}
+.footer .widget li a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;  
+}
+.footer .widget li a:hover, .footer .widget li a:focus{
+    font-weight: 700;
+    transition: 1s;
+}
+/*footer section end*/
+
+/*particle css*/
+/* ---- reset ---- */
+/*body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}*/
+/* ---- tsparticles container ---- */
+/*#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1237px-NASA_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 50% 50%;
+}*/
+/* ---- stats.js ---- */
+/*.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}*/

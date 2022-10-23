@@ -1,0 +1,792 @@
+
+/* low resulation mobile phone--glaxy fold */
+@media screen and (max-width: 319px){
+/* small-device code start */
+.header {
+    height: 82vh;
+}
+.navbar-toggler{
+    text-decoration: none;
+    color: white;
+    background: #df4eeb;
+    padding: 3px 6px;
+}
+.banner .title {
+    text-align: left;
+    padding: 0px;
+    margin: -16px 0px 0px -9px;
+}
+.banner .title h2 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 26px;
+}
+.banner .title h1 {
+    font-size: 14px;
+    padding: 0px 0px 0px 21px;
+}
+.banner .inner-banner {
+    text-align: center;
+    padding: 60px 0px 0px
+}
+.banner .inner-banner h2 {
+    font-size: 50px;
+}
+.banner .inner-banner p {
+    font-size: 11px;
+    padding: 0px 0px 12px;
+}
+.banner .inner-banner .btn-light {
+    padding: 5px 15px;
+}
+.banner .inner-banner .btn {
+    font-size: 14px;
+}
+.guest .inner-guest img {
+    width: 7%;
+    padding: 0px 0px 10px;
+}
+.guest .inner-guest h2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 6px 0px 13px;
+}
+.guest .inner-guest p {
+    font-size: 11px;
+    line-height: 24px;
+    padding: 0px 5px 0px 5px;
+}
+.new {
+    padding: 50px 0px;
+}
+.new .card {
+    text-align: center;
+    padding: 20px 0px;
+}
+.new .card .fa-forward {
+    font-size: 33px;
+    padding: 0px;
+}
+.new .card .card-body .card-title {
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px;
+}
+.new .card .card-body .card-text {
+    font-size: 11px;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+.priority {
+    padding: 80px 0px 10px;
+}
+.priority .title h2 {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0px 0px 12px;
+}
+.priority .title p {
+    font-size: 11px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+    padding: 0px 5px 0px 5px;
+}
+.priority .card {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0px 15px 0px;
+}
+.priority .card .card-body .client-name h6 {
+    padding: 14px 0px 0px 0px;
+}
+.priority .card .card-body .client-img {
+    width: 31px;
+    height: 30px;
+}
+.priority .card .card-body .client-name p {
+    margin-top: -5px;
+}
+.priority .card .card-body .card-title {
+    font-size: 17px;
+    line-height: 27px;
+}
+.priority .card .card-body .card-text {
+    font-size: 12px;
+    line-height: 22px;
+}
+.what {
+    padding: 45px 0px 30px;
+}
+.what .title h2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 0px 10px;
+}
+.what .title p {
+    font-size: 11px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.what .nav .list {
+    margin: 0px 40px 5px 0px;
+}
+.what .nav .list li {
+    padding: 0px 5px;
+    font-size: 10px;
+}
+.gallery {
+    padding: 80px 0px;
+}
+.quote {
+    padding: 45px 0px 50px;
+}
+.quote img {
+    width: 20%;
+    padding-bottom: 25px;
+}
+.quote .title img {
+    width: 5%;
+}
+.quote .title p {
+    font-size: 11px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.quote .title h3 {
+    font-size: 14px;
+    line-height: 14px;
+}
+.number .title {
+    padding: 0px;
+}
+.project {
+    padding: 25px 0px;
+}
+.project .title {
+    padding: 50px 0px 25px;
+}
+.project .title p {
+    font-size: 10px;
+    line-height: 22px;
+}
+.project .title h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+}
+.project .inner-image img {
+    width: 100%;
+}
+.project .inner-image img {
+    width: 89%;
+}
+.social .title p {
+    font-size: 12px;
+}
+.social .title h5 {
+    font-size: 17px;
+}  
+.social img {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.trip {
+    padding: 54px 0px 25px;
+}
+.trip .inner-trip p {
+    font-size: 11px;
+    font-weight: 400;
+}
+.trip .inner-trip {
+    padding: 14px 0px 0px;
+    text-align: center;
+    margin: -55px 0px 40px 0px;
+}
+.trip .inner-trip h5 {
+    font-size: 15px;
+    line-height: 7px;
+}
+.trip .inner-image {
+    margin: 0px 0px 5px 28px;
+}
+.trip .inner-image img {
+    width: 2%;
+}
+.social img {
+    position: absolute;
+    top: 11%;
+    left: 47%;
+    width: 6%;
+}
+.social .title h5 {
+    font-size: 15px;
+    line-height: 19px;
+}
+.social .social-icon .icon {
+    padding: 0px 0px 0px 5px;
+}
+.social .social-icon .icon li {
+    width: 33px;
+    height: 33px;
+    margin: 0px 5px 0px 0px;
+}
+.social .social-icon .icon .fa {
+    font-size: 15px;
+    padding: 10px;
+}
+.footer {
+    padding: 55px 0px;
+    text-align: center;
+} 
+.footer .widget {
+    margin-bottom: 32px;
+}
+.footer h4 {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 0px 8px 0px;
+}
+.footer .widget li a {
+    font-size: 11px;
+    line-height: 22px;
+}
+.footer .inner-text {
+    font-size: 13px;
+    line-height: 23px;
+}
+/* small-device code end */
+}
+
+/* most of the smartphone devices */
+@media (min-width: 320px) and (max-width: 480px){
+/* maximum device code start */
+.header {
+    height: 82vh;
+}
+.navbar-toggler{
+    text-decoration: none;
+    color: white;
+    background: #df4eeb;
+    /*margin: 0px 41px 0px 0px;*/
+    padding: 4px 8px;
+}
+.banner .inner-banner {
+    text-align: center;
+    padding: 60px 0px 0px
+}
+.banner .inner-banner h2 {
+    font-size: 55px;
+}
+.banner .inner-banner p {
+    font-size: 12px;
+    padding: 0px 0px 12px;
+}
+.banner .inner-banner .btn-light {
+    padding: 5px 15px;
+}
+.banner .inner-banner .btn {
+    font-size: 14px;
+}
+.banner .title {
+    text-align: left;
+    padding: 0px;
+}
+.banner .title h2 {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px 26px;
+}
+.banner .title h1 {
+    font-size: 18px;
+    padding: 0px 0px 0px 19px;
+}
+.guest .inner-guest img {
+    width: 8%;
+    padding: 0px 0px 10px;
+}
+.guest .inner-guest h2 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 6px 0px 16px;
+}
+.guest .inner-guest p {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px 7px 0px 7px;
+}
+.new {
+    padding: 50px 0px;
+}
+.new .card {
+    text-align: center;
+    padding: 20px 0px;
+}
+.priority {
+    padding: 80px 0px 10px;
+}
+.priority .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0px 0px 16px;
+}
+.priority .title p {
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+    padding: 0px 5px 0px 5px;
+}
+.priority .card {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0px 15px 0px;
+}
+.priority .card .card-body .client-name h6 {
+    padding: 14px 0px 0px 0px;
+}
+.priority .card .card-body .client-img {
+    width: 34px;
+    height: 33px;
+}
+.priority .card .card-body .client-name p {
+    margin-top: -5px;
+}
+.what {
+    padding: 45px 0px 30px;
+}
+.what .title h2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.what .title p {
+    font-size: 13px;
+    line-height: 23px;
+}
+.what .nav .list {
+    margin: 0px 35px 5px 0px;
+}
+.what .nav .list li {
+    padding: 0px 8px;
+    font-size: 14px;
+}
+.quote img {
+    width: 20%;
+    padding-bottom: 25px;
+}
+.quote .title img {
+    width: 5%;
+}
+.quote .title p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.quote .title h3 {
+    font-size: 17px;
+    line-height: 17px;
+}
+.number .title {
+    padding: 0px;
+}
+.project .title {
+    padding: 20px 30px 30px;
+}
+.project .title h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+}
+.project .inner-image img {
+    width: 100%;
+}
+.project .inner-image img {
+    width: 89%;
+}
+.social .title p {
+    font-size: 12px;
+}
+.social .title h5 {
+    font-size: 17px;
+}  
+.social img {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.trip .inner-trip {
+    padding: 15px 0px 0px;
+    text-align: center;
+    margin: -72px 0px 63px 0px;
+}
+.trip .inner-image {
+    margin: 0px 0px 5px 47px;
+}
+.trip .inner-image img {
+    width: 2%;
+}
+.footer {
+    padding: 55px 0px;
+    text-align: center;
+} 
+/*maximum device code end*/
+}
+
+/* mobile phone and low resulation tablet */
+@media (min-width: 481px) and (max-width: 767px){
+/* mobile device code starts */
+.header {
+    height: 108vh;
+}
+.navbar-toggler{
+    text-decoration: none;
+    color: white;
+    background: #df4eeb;
+    padding: 4px 8px;
+}
+.banner .inner-banner {
+    text-align: center;
+    padding: 45px 60px 0px;
+}
+.banner .inner-banner h2 {
+    font-size: 55px;
+}
+.banner .inner-banner p {
+    font-size: 12px;
+    padding: 0px 0px 12px;
+}
+.banner .inner-banner .btn-light {
+    padding: 5px 15px;
+}
+.banner .inner-banner .btn {
+    font-size: 14px;
+}
+.banner .title {
+    text-align: left;
+    padding: 41px 42px;
+}
+.banner .title h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 21px;
+}
+.banner .title h1 {
+    font-size: 22px;
+    padding: 0px 0px 0px 8px;
+}
+.guest .inner-guest img {
+    width: 8%;
+    padding: 0px 0px 10px;
+}
+.guest .inner-guest h2 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 6px 0px 16px;
+}
+.guest .inner-guest p {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px 7px 0px 7px;
+}
+.new {
+    padding: 50px 0px;
+}
+.new .card {
+    text-align: center;
+    padding: 20px 0px;
+}
+.priority {
+    padding: 80px 0px 10px;
+}
+.priority .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0px 0px 16px;
+}
+.priority .title p {
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+    padding: 0px 5px 0px 5px;
+}
+.priority .card {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0px 15px 0px;
+}
+.priority .card .card-body .client-name h6 {
+    padding: 14px 0px 0px 0px;
+}
+.priority .card .card-body .client-img {
+    width: 34px;
+    height: 33px;
+}
+.priority .card .card-body .client-name p {
+    margin-top: -5px;
+}
+.what {
+    padding: 45px 0px 30px;
+}
+.what .title h2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.what .title p {
+    font-size: 13px;
+    line-height: 23px;
+}
+.what .nav .list {
+    margin: 0px 35px 5px 0px;
+}
+.what .nav .list li {
+    padding: 0px 8px;
+    font-size: 14px;
+}
+.quote img {
+    width: 20%;
+    padding-bottom: 25px;
+}
+.quote .title img {
+    width: 5%;
+}
+.quote .title p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.quote .title h3 {
+    font-size: 17px;
+    line-height: 17px;
+}
+.number .title {
+    padding: 0px;
+}
+.project .title {
+    padding: 20px 30px 30px;
+}
+.project .title h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+}
+.project .inner-image img {
+    width: 100%;
+}
+.project .inner-image img {
+    width: 89%;
+}
+.social .title p {
+    font-size: 12px;
+}
+.social .title h5 {
+    font-size: 17px;
+}  
+.social img {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.trip .inner-trip {
+    padding: 15px 0px 0px;
+    text-align: center;
+    margin: -91px 0px 63px 0px;
+}
+.trip .inner-image {
+    margin: 0px 0px 5px 92px;
+}
+.trip .inner-image img {
+    width: 2%;
+}
+.footer {
+    padding: 55px 0px;
+    text-align: center;
+} 
+/* mobile device code end */
+}
+
+/* tablet, notebook */
+@media (min-width: 768px) and (max-width: 1024px){
+/* tablet device code start*/
+.header {
+    height: 100vh;
+}
+.navbar-toggler{
+    text-decoration: none;
+    color: white;
+    background: #df4eeb;
+    padding: 4px 8px;
+}
+.banner .inner-banner {
+    text-align: center;
+    padding: 60px 0px 0px
+}
+.banner .inner-banner h2 {
+    font-size: 55px;
+}
+.banner .inner-banner p {
+    font-size: 12px;
+    padding: 0px 0px 12px;
+}
+.banner .inner-banner .btn-light {
+    padding: 5px 15px;
+}
+.banner .inner-banner .btn {
+    font-size: 14px;
+}
+.banner .title {
+    text-align: left;
+    padding: 0px;
+}
+.banner .title h2 {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px 26px;
+}
+.banner .title h1 {
+    font-size: 18px;
+    padding: 0px 0px 0px 19px;
+}
+.guest .inner-guest img {
+    width: 8%;
+    padding: 0px 0px 10px;
+}
+.guest .inner-guest h2 {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 6px 0px 16px;
+}
+.guest .inner-guest p {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0px 7px 0px 7px;
+}
+.new {
+    padding: 50px 0px;
+}
+.new .card {
+    text-align: center;
+    padding: 20px 0px;
+}
+.priority {
+    padding: 80px 0px 10px;
+}
+.priority .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0px 0px 16px;
+}
+.priority .title p {
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+    padding: 0px 5px 0px 5px;
+}
+.priority .card {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0px 15px 0px;
+}
+.priority .card .card-body .client-name h6 {
+    padding: 14px 0px 0px 0px;
+}
+.priority .card .card-body .client-img {
+    width: 34px;
+    height: 33px;
+}
+.priority .card .card-body .client-name p {
+    margin-top: -5px;
+}
+.what {
+    padding: 45px 0px 30px;
+}
+.what .title h2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.what .title p {
+    font-size: 13px;
+    line-height: 23px;
+}
+.what .nav .list {
+    margin: 0px 35px 5px 0px;
+}
+.what .nav .list li {
+    padding: 0px 8px;
+    font-size: 14px;
+}
+.quote img {
+    width: 20%;
+    padding-bottom: 25px;
+}
+.quote .title img {
+    width: 5%;
+}
+.quote .title p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.quote .title h3 {
+    font-size: 17px;
+    line-height: 17px;
+}
+.number .title {
+    padding: 0px;
+}
+.project .title {
+    padding: 20px 30px 30px;
+}
+.project .title h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    height: 150px;
+}
+.project .inner-image img {
+    width: 100%;
+}
+.project .inner-image img {
+    width: 89%;
+}
+.social .title p {
+    font-size: 12px;
+}
+.social .title h5 {
+    font-size: 17px;
+}  
+.social img {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.trip .inner-trip {
+    padding: 15px 0px 0px;
+    text-align: center;
+    margin: -72px 0px 63px 0px;
+}
+.trip .inner-image {
+    margin: 0px 0px 5px 47px;
+}
+.trip .inner-image img {
+    width: 2%;
+}
+.footer {
+    padding: 55px 0px;
+    text-align: center;
+} 
+/*tablet device code end*/
+  }
