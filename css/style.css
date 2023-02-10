@@ -9,6 +9,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+    background-color: #000001;
 }
 h1{
 	font-family: 'Monoton', cursive;
@@ -29,16 +30,19 @@ a, a:hover{
     background-repeat: no-repeat, no-repeat;
     background-size: 40%, cover;
 }
+.header .fixed-top{
+    padding: 20px 0px;
+    background: linear-gradient(to top, transparent, rgba(5, 0, 0, 0.9));
+}
 .header .navbar-nav .nav-item .nav-link{
 	color: white;
     font-size: 17px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    margin: 0px 25px 120px;
+    margin: 0px 25px;
  
 }
 .header .navbar-nav .nav-item .nav-link:hover{
-	font-size: 18px;
 	color: #cd1be4;
 }
 .banner{
@@ -228,6 +232,7 @@ a, a:hover{
 	width: 100%;
 	padding: 80px 0px 30px;
 	background: #000001;
+
 }
 .what .title{
 	text-align: center;
@@ -259,7 +264,7 @@ a, a:hover{
 .what .nav .list a{
 
 }
-.what .nav .list li{
+.what .nav .list button{
 	color: #fff;
 	display: inline-block;
     padding: 21px 30px 0px 30px;
@@ -274,10 +279,103 @@ a, a:hover{
 /* gallery section start */
 .gallery{
 	width: 100%;
-	padding: 200px 0px;
+	/*padding: 62px 150px 320px 150px;*/
+    padding: 0px 184px 500px 451px;
 	background: url("../images/qb.png") center top, no-repeat;
 	background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
+.gallery .content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% auto; 
+    position: absolute;
+    transition: 0.3s;
+    transform: translateX(250%);
+    
+}
+.gallery .content h4{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+    
+.gallery .content-left{
+    flex-basis: 100%;
+    background-color: #c6c6c6;
+    padding: 30px;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px #888888;
+}
+.gallery .content-left p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 13px;
+    color: #000;
+}
+.gallery .content-middlel{
+    flex-basis: 100%;
+     background-color: #c6c6c6;
+     padding: 30px;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px #888888;
+}
+.gallery .content-middlel p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 13px;
+    color: #000;
+}
+.gallery .content-middler{
+    flex-basis: 100%;
+    background-color: #c6c6c6;
+    padding: 30px;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px #888888;
+}
+.gallery .content-middler p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 13px;
+    color: #000;
+}
+.gallery .content-right{
+    flex-basis: 100%;
+    background-color: #c6c6c6;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px #888888;
+}
+.gallery .content-right img{
+    width: 700px;
+    height: 350px;
+
+}
+#content1{
+    transform: translateX(0px);
+}
+#btn1{
+    background-color: #000001;
+    color: #aa15b6; 
+}
+#content2{}
+#btn2{
+    background-color: #000001;
+    /*color: #aa15b6; */
+}
+#content3{}
+#btn3{
+    background-color: #000001;
+    /*color: #aa15b6; */
+}
+#content4{}
+#btn4{
+    background-color: #000001;
+    /*color: #aa15b6; */
+}
+
 /*gallery section end*/
 
 /* qoute section starts */
@@ -499,6 +597,8 @@ a, a:hover{
     text-align: center;
     margin: 60px 0px 0px 0px;
 /*footer section end*/
+
+
 
 /*particle css*/
 /*.count-particles{
